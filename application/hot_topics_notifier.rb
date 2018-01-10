@@ -27,7 +27,7 @@ end
 if hot_topics.count > 0
   n = 1 
   hot_topics.values.each do |topic|
-    puts "No#{n} is #{topic,name}"
+    puts "No#{n} is #{topic.name}."
     n = n + 1
   end
 
